@@ -58,7 +58,7 @@ test_script:
   # run phpstan
   - vendor\bin\phpstan analyse -c tests/phpstan.neon symphony
   # run bcc
-  - vendor\bin\roave-backward-compatibility-check
+  #- vendor\bin\roave-backward-compatibility-check
 
 # Don't actually build.
 build: off

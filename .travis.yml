@@ -55,7 +55,7 @@ script:
   # run phpstan
   - phpstan analyse -c tests/phpstan.neon symphony
   # run bcc
-  - roave-backward-compatibility-check
+  #- roave-backward-compatibility-check
 
 after_success:
   # merge code coverage reports
